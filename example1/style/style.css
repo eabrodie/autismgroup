@@ -1,0 +1,66 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #FF4F00;
+  font-family: 'Oxygen', sans-serif;
+}
+
+p {
+  font-family: 'Ariel', sans-serif;
+}
+
+.logo-header {
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  display: block; 
+}
+
+.navbar {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #00E5EE;
+  background-color: #00E5EE;
+}
+
+.navbar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar-nav > li {
+  display:block;
+  float: left;
+  padding-left: 35px;
+  color: #000000;
+}
+
+.navbar-nav > li > a {
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+
+.navbar-nav::before, .navbar-nav::after {
+  display: table;
+  content: ' ';
+}
+
+.navbar-nav::after {
+  clear: both;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+}
