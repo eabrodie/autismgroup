@@ -1,0 +1,63 @@
+html {
+  display: flex;
+  flex-flow: row;
+}
+
+body {
+  font-family: 'Ariel', sans-serif;
+  color: #00a0aa;
+  background-color: #c9e6e5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  color: #ffffff;
+  /*background-color: #00a0aa;*/
+  background-color: red;
+  width: 100vw;
+}
+
+.logo-box {
+  float: left;
+  padding-left: 50px;
+}
+
+.navbar li {
+  display: inline;
+  list-style: none;
+  float: right;
+  padding-left: 15px;
+}
+
+.service-section {
+  display: flex;
+  flex-flow: column;;
+  width: 100vw;
+}
+
+.service-bar {
+  display: flex;
+  flex-flow: row;
+  color: #ffffff;
+  background-color: #00a0aa;
+  width: 100vw;
+}
+
+.three-cols {
+  display: flex;
+  flex-flow: row;
+  width: 100vw;
+}
+
+.main-image {
+  height: 70vh;
+  width: auto;
+}
+
+footer {
+  padding: 20px;
+  background-color: yellow;
+}
