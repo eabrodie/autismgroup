@@ -125,9 +125,11 @@ footer {
 .main-image {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   height: 50%;
   width: auto;
-  background-color: green;
+  background-color: #556B2F;
 }
 
 .main-image h1 {
@@ -135,6 +137,8 @@ footer {
   font-size: 2em;
   color: #ffffff;
   font-weight: lighter;
+  flex-wrap:wrap;
+  max-width: 300px;
 }
 
 .large-logo {
